@@ -24,6 +24,10 @@ If you are looking for pure implementations visit [TheAlgorithms/Python](https:/
 ## Data structures
 * [Stack](https://github.com/D1N3SHh/algorithms/blob/master/stack.py)
 
+* [Queue](https://github.com/D1N3SHh/algorithms/blob/master/queue.py)
+
+* [Linked list](https://github.com/D1N3SHh/algorithms/blob/master/linked_list.py)
+
 
 ## Other
 * [Max subarray](https://github.com/D1N3SHh/algorithms/blob/master/max_subarray.py)
