@@ -28,6 +28,8 @@ If you are looking for pure implementations visit [TheAlgorithms/Python](https:/
 
 * [Linked list](https://github.com/D1N3SHh/algorithms/blob/master/linked_list.py)
 
+* [Binary search tree](https://github.com/D1N3SHh/algorithms/blob/master/binary_search_tree.py)
+
 
 ## Other
 * [Max subarray](https://github.com/D1N3SHh/algorithms/blob/master/max_subarray.py)
