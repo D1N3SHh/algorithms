@@ -85,8 +85,7 @@ class Node():
         return '{%s:%s,%s}' % (self.data, self.left, self.right)
 
 
-# TEST
-if __name__ == "__main__":
+def example_usage():
     tree = Binary_search_tree()
     node_1 = Node(6)            #          6
     node_2 = Node(4)            #        /   \
@@ -104,3 +103,7 @@ if __name__ == "__main__":
     print('Maksimum:', tree.maximum(tree.root))
     tree.delete(node_2)
     print('Tree text reprezentation after removing node 2 (value=4):', tree)
+
+
+if __name__ == "__main__":
+    example_usage() # run an example on start
