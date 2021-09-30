@@ -44,8 +44,7 @@ class Node():
         self.next = next
 
 
-# TEST
-if __name__ == "__main__":
+def  example_usage():
     linked_list = Linked_list()
     node_1 = Node(1)
     node_2 = Node(2)
@@ -55,7 +54,11 @@ if __name__ == "__main__":
     linked_list.insert(node_2)
     linked_list.insert(node_3)
     linked_list.insert(node_4)
-    print(linked_list)
-    print(linked_list.search(3))
+    print("List on start:", linked_list)
+    print("Searching for key '3':", linked_list.search(3))
     linked_list.delete(node_3)
-    print(linked_list)
+    print("List after removing 'node 3':", linked_list)
+
+
+if __name__ == "__main__":
+    example_usage() # run an example on start
