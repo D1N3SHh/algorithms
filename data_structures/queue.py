@@ -17,6 +17,9 @@ class Queue():
         self.tail = 0
         self.head = 0
 
+    def __repr__(self):
+        return str(self.q)
+
     def enqueue(self, x):
         if self.tail == self.max_size:
             raise QueueOverflowError
@@ -40,17 +43,16 @@ class Queue():
             return x
 
 
+def example_usage():
+    queue = Queue(5)                         # [NULL, NULL, NULL, NULL, NULL]
+    queue.enqueue(1111)                      # [1111, NULL, NULL, NULL, NULL]
+    queue.enqueue(2222)                      # [1111, 2222, NULL, NULL, NULL]
+    queue.enqueue(3333)                      # [1111, 2222, 3333, NULL, NULL]
+    print('Queue:', queue)
+    print('Dequeue:', queue.dequeue())       # [NULL, 2222, 3333, NULL, NULL]
+    queue.enqueue(4444)                      # [NULL, 2222, 3333, 4444, NULL]
+    print('Queue:', queue)
+
+
 if __name__ == "__main__":
-    queue = Queue(5)
-    
-    # --short test--
-    # should be:
-    #   1234
-    #   [None, 9999, 8888, 7777, None] 
-    
-    queue.enqueue(1234)
-    queue.enqueue(9999)
-    queue.enqueue(8888)
-    print(queue.dequeue())
-    queue.enqueue(7777)
-    print(queue.q)
+    example_usage() # run an example on start
