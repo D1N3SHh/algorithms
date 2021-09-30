@@ -8,33 +8,33 @@ If you are looking for pure implementations visit [TheAlgorithms/Python](https:/
 # Table of Contents
 
 ## Sorting algorithms
-* [Bubble sort](https://github.com/D1N3SHh/algorithms/blob/master/bubble_sort.py)
+* [Bubble sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/bubble_sort.py)
 
-* [Counting sort](https://github.com/D1N3SHh/algorithms/blob/master/counting_sort.py)
+* [Counting sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/counting_sort.py)
 
-* [Heap sort](https://github.com/D1N3SHh/algorithms/blob/master/heap_sort.py)
+* [Heap sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/heap_sort.py)
 
-* [Insertion sort](https://github.com/D1N3SHh/algorithms/blob/master/insertion_sort.py)
+* [Insertion sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/insertion_sort.py)
 
-* [Merg sort](https://github.com/D1N3SHh/algorithms/blob/master/merg_sort.py)
+* [Merg sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/merg_sort.py)
 
-* [Quick sort](https://github.com/D1N3SHh/algorithms/blob/master/quick_sort.py)
+* [Quick sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/quick_sort.py)
 
 
 ## Data structures
-* [Stack](https://github.com/D1N3SHh/algorithms/blob/master/stack.py)
+* [Stack](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/stack.py)
 
-* [Queue](https://github.com/D1N3SHh/algorithms/blob/master/queue.py)
+* [Queue](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/queue.py)
 
-* [Linked list](https://github.com/D1N3SHh/algorithms/blob/master/linked_list.py)
+* [Linked list](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/linked_list.py)
 
-* [Binary search tree](https://github.com/D1N3SHh/algorithms/blob/master/binary_search_tree.py)
+* [Binary search tree](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/binary_search_tree.py)
 
 
 ## Other
-* [Max subarray](https://github.com/D1N3SHh/algorithms/blob/master/max_subarray.py)
+* [Max subarray](https://github.com/D1N3SHh/algorithms/blob/master/other/max_subarray.py)
 
-* [Minimum and maximum](https://github.com/D1N3SHh/algorithms/blob/master/minimum_and_maximum.py)
+* [Minimum and maximum](https://github.com/D1N3SHh/algorithms/blob/master/other/minimum_and_maximum.py)
 
 
 # Authors
