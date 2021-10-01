@@ -3,9 +3,6 @@
 # https://github.com/D1N3SHh/algorithms
 
 
-A = [3, 7, 1, 8, 4, 6, 9, 2, 5]
-
-
 def counting_sort(A, B, k):
     C = []
     for i in range(0, k + 1):
@@ -17,10 +14,14 @@ def counting_sort(A, B, k):
     for j in reversed(range(0, len(A))):
         B[C[A[j]]-1] = A[j]
         C[A[j]] -= 1
-
     return B
 
 
+def example_usage():
+    A = [3, 7, 1, 8, 4, 6, 9, 2, 5]
+    print('Unsorted:\t', A)
+    print('Sorted:\t\t', counting_sort(A, [0] * len(A), max(A) + 1))
+
+
 if __name__ == "__main__":
-    B = counting_sort(A, [0] * len(A), max(A) + 1)
-    print(B)
+    example_usage() # run an example on start
