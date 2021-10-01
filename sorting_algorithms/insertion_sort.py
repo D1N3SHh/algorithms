@@ -3,19 +3,22 @@
 # https://github.com/D1N3SHh/algorithms
 
 
-list = [3, 7, 1, 8, 4, 6, 9, 2, 5]
-
-
-def insertion_sort(list):
-    for j in range(1, len(list)):
-        key = list[j]
+def insertion_sort(A):
+    for j in range(1, len(A)):
+        key = A[j]
         i = j - 1
-        while i >= 0 and list[i] > key:
-            list[i + 1] = list[i]
+        while i >= 0 and A[i] > key:
+            A[i + 1] = A[i]
             i -= 1
-        list[i + 1] = key
+        A[i + 1] = key
+    return A
+
+
+def example_usage():
+    A = [3, 7, 1, 8, 4, 6, 9, 2, 5]
+    print('Unsorted:\t', A)
+    print('Sorted:\t\t', insertion_sort(A))
 
 
 if __name__ == "__main__":
-    insertion_sort(list)
-    print(list)
+    example_usage() # run an example on start
