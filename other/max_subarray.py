@@ -3,9 +3,6 @@
 # https://github.com/D1N3SHh/algorithms
 
 
-list = [3, -7, -1, 8, -4, 6, 9, -2, 5]
-
-
 def max_crossing_subarray(list, low, mid, high):
     left_sum = -2147483647
     sum = 0
@@ -43,6 +40,13 @@ def max_subarray(list, low, high):
             return cross_low, cross_high, cross_sum
 
 
-if __name__ == "__main__":
+def example_usage():
+    list = [3, -7, -1, 8, -4, 6, 9, -2, 5]
     low, high, sum = max_subarray(list, 0, len(list) - 1)
-    print(sum)
+    print('Max subarray:', sum)
+    print('Start index:', low)      # indexing from 0
+    print('End index:', high)
+
+
+if __name__ == "__main__":
+    example_usage() # run an example on start
