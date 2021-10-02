@@ -1,6 +1,6 @@
 # D1N3SHh/algorithms
 
-This repo contains my implementations of basic algorithms which are NOT PURE.
+This repo contains my implementations (based on "introduction to algorithms") of basic algorithms which do not have to be pure.
 
 If you are looking for pure implementations visit [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
 
@@ -30,11 +30,19 @@ If you are looking for pure implementations visit [TheAlgorithms/Python](https:/
 
 * [Binary search tree](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/binary_search_tree.py)
 
+* [Red black tree](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/red_black_tree.py)
+
 
 ## Other
 * [Max subarray](https://github.com/D1N3SHh/algorithms/blob/master/other/max_subarray.py)
 
 * [Minimum and maximum](https://github.com/D1N3SHh/algorithms/blob/master/other/minimum_and_maximum.py)
+
+
+# To do
+* do some test and write an example for red black tree
+
+* search function for red black tree
 
 
 # Authors
