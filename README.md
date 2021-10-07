@@ -1,11 +1,23 @@
 # D1N3SHh/algorithms
 
-This repo contains my implementations (based on "introduction to algorithms") of basic algorithms which do not have to be pure.
-
+This repo contains my implementations (based on "Introduction to algorithms") of basic algorithms which do not have to be pure.
 If you are looking for pure implementations visit [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
 
 
 # Table of Contents
+
+
+## Data structures
+* [Binary search tree](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/binary_search_tree.py)
+
+* [Linked list](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/linked_list.py)
+
+* [Queue](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/queue.py)
+
+* [Red black tree](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/red_black_tree.py)
+
+* [Stack](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/stack.py)
+
 
 ## Sorting algorithms
 * [Bubble sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/bubble_sort.py)
@@ -20,17 +32,7 @@ If you are looking for pure implementations visit [TheAlgorithms/Python](https:/
 
 * [Quick sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/quick_sort.py)
 
-
-## Data structures
-* [Stack](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/stack.py)
-
-* [Queue](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/queue.py)
-
-* [Linked list](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/linked_list.py)
-
-* [Binary search tree](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/binary_search_tree.py)
-
-* [Red black tree](https://github.com/D1N3SHh/algorithms/blob/master/data_structures/red_black_tree.py)
+* [Selection sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/selection_sort.py)
 
 
 ## Other
