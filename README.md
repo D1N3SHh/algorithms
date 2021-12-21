@@ -35,6 +35,10 @@ If you are looking for pure implementations visit [TheAlgorithms/Python](https:/
 * [Selection sort](https://github.com/D1N3SHh/algorithms/blob/master/sorting_algorithms/selection_sort.py)
 
 
+## Math
+* [Euclidean algorithm](https://github.com/D1N3SHh/algorithms/blob/master/math/euclidean_algorithm.py)
+
+
 ## Other
 * [Max subarray](https://github.com/D1N3SHh/algorithms/blob/master/other/max_subarray.py)
 
