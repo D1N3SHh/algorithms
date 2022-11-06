@@ -1,13 +1,18 @@
-# bubble sort implementation
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
+# bubble sort algorithm
+# time complexity: O(n^2)
+# auxiliary space: O(1)
 
 
 def bubble_sort(A):
-    for i in range(0, len(A)):
-        for j in range(len(A) - 1, i, -1):
+    n = len(A)
+    swapped = False
+    for i in range(n - 1):
+        for j in range(n - 1, i, -1):
             if A[j] < A[j - 1]:
+                swapped = True
                 A[j - 1], A[j] = A[j], A[j - 1]
+        if not swapped:
+            break
     return A
 
 
@@ -18,4 +23,4 @@ def example_usage():
 
 
 if __name__ == "__main__":
-    example_usage() # run an example on start
+    example_usage()

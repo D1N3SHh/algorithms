@@ -1,9 +1,9 @@
 # jeli-t/algorithms
 
-This repo contains my implementations (based on "Introduction to algorithms") of basic algorithms which do not have to be pure.
-If you are looking for pure implementations visit [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
+This repo contains my implementations (mainly based on book "Introduction to algorithms") of basic algorithms.
+For more algorithms and pure python implementations, visit [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
 
-
+___
 # Table of Contents
 
 
@@ -49,15 +49,10 @@ If you are looking for pure implementations visit [TheAlgorithms/Python](https:/
 * [Minimum and maximum](https://github.com/jeli-t/algorithms/blob/master/other/minimum_and_maximum.py)
 
 
-# To do
-* do some test and write an example for red black tree
+___
+# Author
+## [jeli-t](https://github.com/jeli-t)
 
-* search function for red black tree
-
-
-# Authors
-[jeli-t](https://github.com/jeli-t)
-
-
+___
 # License
-[MIT](https://github.com/jeli-t/algorithms/blob/master/LICENSE)
+## [MIT](https://github.com/jeli-t/algorithms/blob/master/LICENSE)
