@@ -1,34 +1,35 @@
-# heap sort implementation
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
+# heap sort algorithm
+# time complexity: θ(nlog n)
+# auxiliary space: θ(1)
 
 
-def max_heapify(A, i, heap_size):
+def max_heapify(A, i, n):
     left = 2*i+1
     right = 2*i+2
     largest = i
 
-    if left < heap_size and A[left] > A[largest]:
+    if left < n and A[left] > A[largest]:
         largest = left
-    if right < heap_size and A[right] > A[largest]:
+    if right < n and A[right] > A[largest]:
         largest = right
 
     if largest != i:
         buf = A[i]
         A[i] = A[largest]
         A[largest] = buf
-        max_heapify(A, largest, heap_size)
+        max_heapify(A, largest, n)
 
 
-def bild_max_heap(A, heap_size):
-    for i in range(heap_size // 2 - 1, -1, -1):
-        max_heapify(A, i, heap_size)
+def bild_max_heap(A):
+    n = len(A)
+    for i in range(n // 2 - 1, -1, -1):
+        max_heapify(A, i, n)
 
 
 def heap_sort(A):
-    heap_size = len(A)
-    bild_max_heap(A, heap_size)
-    for i in range(heap_size - 1, 0, -1):
+    n = len(A)
+    bild_max_heap(A)
+    for i in range(n - 1, 0, -1):
         buf = A[0]
         A[0] = A[i]
         A[i] = buf
@@ -43,4 +44,4 @@ def example_usage():
 
 
 if __name__ == "__main__":
-    example_usage() # run an example on start
+    example_usage()
