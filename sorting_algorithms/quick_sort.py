@@ -1,6 +1,6 @@
-# quick sort implementation
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
+# quick sort algorithm
+# time complexity: O(n²) worst case | O(nlog n) average
+# auxiliary space: O(n)
 
 
 import random
@@ -47,4 +47,4 @@ def example_usage():
 
 
 if __name__ == "__main__":
-    example_usage() # run an example on start
+    example_usage()
