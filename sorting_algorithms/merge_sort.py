@@ -1,6 +1,6 @@
-# merg sort implementation
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
+# merge sort algorithm
+# time complexity: O(nlog n)
+# auxiliary space: O(n)
 
 
 def merge(A, p, q, r):
@@ -41,4 +41,4 @@ def example_usage():
 
 
 if __name__ == "__main__":
-    example_usage() # run an example on start
+    example_usage()
