@@ -1,7 +1,11 @@
 # binary search tree
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
-
+# time complexity:  (h is the height of the tree)
+#   search: O(h)
+#   insert: O(h)
+#   delete: O(h)
+#   inorder_tree_walk: θ(n)
+#   minimum: O(h)
+#   maximum: O(h)
 
 class Binary_search_tree():
     def __init__(self, root = None):
@@ -106,4 +110,4 @@ def example_usage():
 
 
 if __name__ == "__main__":
-    example_usage() # run an example on start
+    example_usage()
