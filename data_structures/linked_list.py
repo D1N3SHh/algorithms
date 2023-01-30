@@ -1,6 +1,9 @@
-# linked list implementation
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
+# linked list
+# time complexity:
+#   search: O(n)
+#   insert: O(1)
+#   delete: O(n)
+# auxiliary space: O(n)
 
 
 class Linked_list():
@@ -61,4 +64,4 @@ def  example_usage():
 
 
 if __name__ == "__main__":
-    example_usage() # run an example on start
+    example_usage()
