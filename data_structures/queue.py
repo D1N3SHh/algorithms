@@ -1,6 +1,6 @@
-# basic queue implementation
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
+# queue algorithm
+# time complexity: O(1)
+# auxiliary space: O(n)
 
 
 class QueueOverflowError(BaseException):
@@ -55,4 +55,4 @@ def example_usage():
 
 
 if __name__ == "__main__":
-    example_usage() # run an example on start
+    example_usage()
