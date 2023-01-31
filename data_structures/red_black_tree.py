@@ -1,6 +1,6 @@
-# binary search tree
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
+# red black tree
+# time complexity: O(log n)
+# auxiliary space: O(n)
 
 
 class Red_black_tree():
