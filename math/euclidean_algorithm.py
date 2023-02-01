@@ -1,6 +1,6 @@
-# find greatest common divisor
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
+# finds greatest common divisor
+# time complexity: O(log min(a,b))
+# auxiliary space: O(log min(a,b))
 
 
 def gcd(a, b):
@@ -16,4 +16,4 @@ def example_usage():
     print(greatest)
 
 if __name__ == "__main__":
-    example_usage() # run an example on start
+    example_usage()
