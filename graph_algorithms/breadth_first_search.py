@@ -1,6 +1,6 @@
 # breadth first search algorithm
-# author: jeli-t
-# https://github.com/jeli-t/algorithms
+# time complexity: O(V + E) where V is the number of nodes, and E is the number of edges
+# auxiliary space: O(V)
 
 
 from queue import Queue
