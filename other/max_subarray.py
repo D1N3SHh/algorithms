@@ -1,6 +1,6 @@
-# find max subarray
-# author: D1N3SHh
-# https://github.com/D1N3SHh/algorithms
+# finds max subarray
+# time complexity: O(n)
+# auxiliary space: O(1)
 
 
 def max_crossing_subarray(list, low, mid, high):
@@ -49,4 +49,4 @@ def example_usage():
 
 
 if __name__ == "__main__":
-    example_usage() # run an example on start
+    example_usage()
