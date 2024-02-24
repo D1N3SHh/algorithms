@@ -42,11 +42,17 @@ ___
 ## Math
 * [Euclidean algorithm](https://github.com/jeli-t/algorithms/blob/master/math/euclidean_algorithm.py)
 
+* [Euclidean algorithm with modulo](https://github.com/jeli-t/algorithms/blob/master/math/euclidean_algorithm_with_modulo.py)
+
+* [Euclidean algorithm with recursion](https://github.com/jeli-t/algorithms/blob/master/math/euclidean_algorithm_with_recursion.py)
+
 
 ## Other
 * [Max subarray](https://github.com/jeli-t/algorithms/blob/master/other/max_subarray.py)
 
 * [Minimum and maximum](https://github.com/jeli-t/algorithms/blob/master/other/minimum_and_maximum.py)
+
+* [Sudoku](https://github.com/jeli-t/algorithms/blob/master/other/sudoku.py)
 
 
 ___
