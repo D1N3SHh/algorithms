@@ -47,6 +47,10 @@ ___
 * [Euclidean algorithm with recursion](https://github.com/jeli-t/algorithms/blob/master/math/euclidean_algorithm_with_recursion.py)
 
 
+## Number systems
+* [Decimal to Binary](https://github.com/jeli-t/algorithms/blob/master/number_systems/dec_to_bin.py)
+
+
 ## Other
 * [Max subarray](https://github.com/jeli-t/algorithms/blob/master/other/max_subarray.py)
 
