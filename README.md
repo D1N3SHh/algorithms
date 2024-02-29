@@ -52,13 +52,15 @@ ___
 
 
 ## Other
+* [Binary Search](https://github.com/jeli-t/algorithms/blob/master/other/binary_search.py)
+
+* [Binary Search with recursion](https://github.com/jeli-t/algorithms/blob/master/other/binary_search_with_recursion.py)
+
 * [Max subarray](https://github.com/jeli-t/algorithms/blob/master/other/max_subarray.py)
 
 * [Minimum and maximum](https://github.com/jeli-t/algorithms/blob/master/other/minimum_and_maximum.py)
 
 * [Sudoku](https://github.com/jeli-t/algorithms/blob/master/other/sudoku.py)
-
-* [Binary Search](https://github.com/jeli-t/algorithms/blob/master/other/binary_search.py)
 
 
 ___
