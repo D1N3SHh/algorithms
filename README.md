@@ -58,6 +58,8 @@ ___
 
 * [Sudoku](https://github.com/jeli-t/algorithms/blob/master/other/sudoku.py)
 
+* [Binary Search](https://github.com/jeli-t/algorithms/blob/master/other/binary_search.py)
+
 
 ___
 # Author
