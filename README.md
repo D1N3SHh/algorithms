@@ -50,6 +50,8 @@ ___
 ## Number systems
 * [Decimal to Binary](https://github.com/jeli-t/algorithms/blob/master/number_systems/dec_to_bin.py)
 
+* [Any to Decimal](https://github.com/jeli-t/algorithms/blob/master/number_systems/any_to_dec.py)
+
 
 ## Other
 * [Binary Search](https://github.com/jeli-t/algorithms/blob/master/other/binary_search.py)
