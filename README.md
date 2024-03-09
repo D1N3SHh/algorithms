@@ -48,6 +48,8 @@ ___
 
 * [Perfect number](https://github.com/jeli-t/algorithms/blob/master/math/perfect_number.py)
 
+* [Prime factors](https://github.com/jeli-t/algorithms/blob/master/math/prime_factors.py)
+
 
 ## Number systems
 * [Decimal to Binary](https://github.com/jeli-t/algorithms/blob/master/number_systems/dec_to_bin.py)
